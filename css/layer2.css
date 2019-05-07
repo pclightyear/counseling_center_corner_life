@@ -1,0 +1,26 @@
+.option-set
+{
+    margin: 0.5rem 0;
+}
+
+.option
+{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.dark-img .hidden
+{
+    display: none;
+}
+
+.dark-img img 
+{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
