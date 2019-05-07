@@ -1,20 +1,11 @@
-/* .top-navbar
-{
-    display: block
-} */
-
-.navbar.btn
+/* .navbar.btn
 {
     padding: 5px;
-}
+} */
 
-.body
+.main-img .hidden
 {
-
-}
-
-.main-img
-{
+    display: none;
 }
 
 .main-img img 
@@ -22,11 +13,8 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-	/* max-width: auto; */
-    /* max-height: 100%; */
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 60%;
-    /* vertical-align: text-top; */
 }
