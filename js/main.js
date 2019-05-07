@@ -16,14 +16,14 @@ $('#btn_accomp').on({
 
 $('#btn_conf').on({
     'click': function(){
-        $('#room').attr('src', 'img/conf.png');
+        $('#room').attr('src', 'img/CONF.png');
         $('#room-url').attr('href', "./conf/自在.html");
     }
 });
 
 $('#btn_lookfor').on({
     'click': function(){
-        $('#room').attr('src', 'img/lookfor.png');
+        $('#room').attr('src', 'img/LOOKFOR.png');
         $('#room-url').attr('href', "./lookfor/期待.html");
     }
 });
