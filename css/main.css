@@ -3,6 +3,10 @@
     padding: 5px;
 } */
 
+.masking {
+    opacity: 0;
+}
+
 .main-img .hidden
 {
     display: none;
