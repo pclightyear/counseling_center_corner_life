@@ -1,0 +1,1 @@
+// $('.article').css("font-size", max('0.8vw', '0.5rem'))

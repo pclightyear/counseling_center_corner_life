@@ -1,0 +1,26 @@
+.article
+{
+    position: absolute;
+    top: 0.3rem;
+    right: 1rem;
+    font-size: 0.85vw;
+    line-height: 1.1vw;
+}
+
+@media screen and (max-width: 1350px) {
+    .article {
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+  }
+
+.dark-img 
+{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
