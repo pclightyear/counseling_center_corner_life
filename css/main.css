@@ -3,6 +3,17 @@
     padding: 5px;
 } */
 
+.option-set
+{
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.option
+{
+    text-align: center;
+}
+
 .masking {
     opacity: 0;
 }
