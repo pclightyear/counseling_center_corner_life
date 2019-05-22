@@ -25,3 +25,17 @@
     margin-right: auto;
     width: 55%;
 }
+
+@media screen and (max-width: 1000px) {
+    .option
+    {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    
+    .option-hover
+    {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+  }
