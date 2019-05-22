@@ -2,6 +2,12 @@ $('#main-img').css('margin-top', $('#top-navbar').outerHeight());
 
 var intervaltimes = 1000;
 
+$.when( $.ready ).then(function() {
+    if(window.innerWidth <= 1200) {
+        alert("請將畫面橫擺以獲得較佳的觀看體驗");
+    }
+});
+
 $('#btn_dark').on({
     'click': function(){
         $(".current-img").fadeOut(intervaltimes);
