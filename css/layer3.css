@@ -1,26 +1,70 @@
-.article
+.row-height
 {
-    position: absolute;
-    top: 0.3rem;
-    right: 1rem;
-    font-size: 0.85vw;
-    line-height: 1.1vw;
+    height: 90vh;
 }
 
-@media screen and (max-width: 1350px) {
-    .article {
-        font-size: 0.8rem;
-        line-height: 1rem;
-    }
-  }
+.mobile
+{
+    display: none !important;
+}
 
-.dark-img 
+.pc
+{
+    display: none !important;
+}
+
+.mobile-img
+{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.mobile-article
+{
+    text-align: left;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    padding-top: 1.7rem;
+    padding-left: 1rem;
+}
+
+.pc-article {
+    position: absolute;
+    font-size: 0.85vw;
+    width: 60%;
+}
+
+.layer3-img 
 {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    display: block;
+    margin-top: 1rem;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 55%;
+}
+
+#kite
+{
+    top: 0.3rem;
+    left: 65%;
+}
+
+#fail, #ppl, #finding, #firework
+{
+    left: -3rem;
+}
+
+#waiting
+{
+    top: 0.3rem;
+    left: 15%;
+}
+
+
+#home-m, #thing-m, #box-m, #food-m, #bath-m, #sort-m
+{
+    height: 100%;
+    overflow-y: scroll;
 }

@@ -1,1 +1,7 @@
-// $('.article').css("font-size", max('0.8vw', '0.5rem'))
+$.when( $.ready ).then(function() {
+    if(window.innerWidth <= 1200) {
+        $('.mobile').removeClass( "mobile" );
+    } else {
+        $('.pc').removeClass( "pc" );
+    }
+});
