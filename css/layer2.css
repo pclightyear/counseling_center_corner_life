@@ -1,12 +1,17 @@
-.row-height
+/* .row-height
 {
     height: 90vh;
-}
+} */
 
 .layer2-img
 {
     margin-left: 1rem;
     margin-top: 1rem;
+}
+
+.layer2-img img
+{
+    max-height: 100%;
 }
 
 .sentence-list
@@ -26,6 +31,11 @@
 }
 
 @media screen and (max-width: 1200px) {
+    .row-height
+    {
+        height: 90vh;
+    }
+
     .sentence-list
     {
         padding-top: 8%;
@@ -34,7 +44,7 @@
 
     footer
     {
-        margin-top: 2.5rem;
+        margin-top: 1.5rem;
     }
 
   }
