@@ -1,41 +1,40 @@
-.option-set
+.row-height
 {
-    margin: 0.5rem 0;
+    height: 90vh;
 }
 
-.option
+.layer2-img
 {
-    text-align: center;
-    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
 }
 
-.option-hover
+.sentence-list
 {
-    text-align: center;
-    font-size: 1.8rem;
+    padding-top: 15%;
+    font-size: 1.3rem;
 }
 
-.layer2-img img 
+.sentence-list li
 {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 55%;
+    display: none;
 }
 
-@media screen and (max-width: 1000px) {
-    .option
+.sentence-list a
+{
+    /* color: aquamarine; */
+}
+
+@media screen and (max-width: 1200px) {
+    .sentence-list
     {
-        text-align: center;
-        font-size: 1.3rem;
-    }
-    
-    .option-hover
+        padding-top: 8%;
+        font-size: 1rem;
+    }    
+
+    footer
     {
-        text-align: center;
-        font-size: 1.5rem;
+        margin-top: 2.5rem;
     }
+
   }
