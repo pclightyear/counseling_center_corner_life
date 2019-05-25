@@ -1,35 +1,83 @@
-/* .navbar.btn
+#main-carousel
 {
-    padding: 5px;
-} */
-
-.option-set
-{
-    margin-top: 0.3rem;
-    margin-bottom: 0.3rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    max-height: 100%;
+    width: 80%;
 }
 
-.option
+#main-carousel img
 {
-    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-.masking {
-    opacity: 0;
+.row-height
+{
+    height: 85vh;
 }
 
-.main-img .hidden
-{
-    display: none;
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232271b3' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
 
-.main-img img 
-{
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 55%;
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232271b3' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
+
+#instruction
+{
+    background-color: #e9ecef;
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+    padding-top: 0.5rem;
+    max-height: 100%;
+}
+
+.title
+{
+    font-size: 5vh;
+}
+
+.intro
+{
+    font-size: 2.5vh;
+}
+
+.para
+{
+    font-size: 2vh;
+}
+
+footer
+{
+    margin-top: 2.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+    #instruction
+    {
+        overflow-y: scroll;
+    }
+    
+    .title
+    {
+        font-size: 1.3rem;
+    }
+    
+    .intro
+    {
+        font-size: 0.8rem;
+    }
+    
+    .para
+    {
+        font-size: 0.8rem;
+    }  
+
+    footer
+    {
+        margin-top: 1.5rem;
+    }
+
+  }

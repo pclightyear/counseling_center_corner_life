@@ -8,53 +8,63 @@
 	
 	  <link href="./css/main.css" rel="stylesheet">
   	<!-- Bootstrap core CSS -->
-  	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+  	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" rel="stylesheet">
   </head>
 
-  <body>
-
-    <div>
-      <div class="container option-set">
-        <div class="row">
-          <div id="" class="col option">
-            <button id="btn_dark" type="button" class="align-middle btn-lg btn-dark"></button>
+  <body>    
+    <div class="row row-height">
+      <div id="main-carousel" class="col-8">
+        <div id="m-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+          <div class="carousel-inner">
+            <div id="url0" class="carousel-item">
+              <a href="./dark/黑暗.html">
+                <img src="./img/Dark.png" class="d-block w-100" data-interval="4500">
+              </a>
+            </div>
+            <div id="url1" class="carousel-item">
+              <a href="./accomp/陪伴.html">
+                <img src="./img/Accomp.png" class="d-block w-100" data-interval="4500">
+              </a>
+            </div>
+            <div id="url2" class="carousel-item">
+              <a href="./conf/自在.html">
+                <img src="./img/CONF.png" class="d-block w-100" data-interval="4500">
+              </a>
+            </div>
+            <div id="url3" class="carousel-item">
+              <a href="./lookfor/期待.html">
+                <img src="./img/LOOKFOR.png" class="d-block w-100" data-interval="4500">
+              </a>
+            </div>
           </div>
-          <div id="" class="col option">
-            <button id="btn_accomp" type="button" class="align-middle btn-lg btn-warning"></button>
-          </div>
-          <div id="" class="col option">
-            <button id="btn_conf" type="button" class="align-middle btn-lg btn-success"></button>
-          </div>
-          <div id="" class="col option">
-            <button id="btn_lookfor" type="button" class="align-middle btn-lg btn-primary"></button>
-          </div>
+          <a class="carousel-control-prev" href="#m-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#m-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
       </div>
-    </div>
-
-    <!-- home ================================================================= -->
-    <section>
-      <div class="main-img flex-column">
-        <img id="room" class="current-img" src='./img/ROOM-WITH-BACK.png'>
-        
-        <a id="dark-url" href="./dark/黑暗.html">
-          <img id="dark-img" class="hidden" src='./img/Dark.png'>
-        </a>
-        
-        <a id="accomp-url" href="./accomp/陪伴.html">
-          <img id="accomp-img" class="hidden" src='./img/Accomp.png'>
-        </a>
-        
-        <a id="conf-url" href="./conf/自在.html">
-          <img id="conf-img" class="hidden" src='./img/CONF.png'>
-        </a>
-        
-        <a id="lookfor-url" href="./lookfor/期待.html">
-          <img id="lookfor-img" class="hidden" src='./img/LOOKFOR.png'>
-        </a>
+      <div id="instruction" class="col">
+        <div class="">
+          <h3 class="title"><b>【角落人生】使用說明</b></h3>
+          <p class="intro">
+            每個人對於角落都可能有不同的感受<br>
+            也許孤單<br>
+            也許溫馨<br>
+            也許自在……。<br>
+          </p>
+          <hr class="my-6">
+          <p class="para">
+            <b>Corner</b><br>
+            點選你喜歡的角落意象<br>
+            不同面向的角落便會呈現在眼前。<br>
+          </p>
+        </div>
       </div>
-    </section>
-    
+      </div>
 
     <!-- FOOTER -->
     <footer>
@@ -66,7 +76,7 @@
     <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>	
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
     <script type="text/javascript" src="./js/main.js"></script>
 
   </body>
