@@ -10,7 +10,6 @@
     padding-right: 10%;
 }
 
-
 .instruction
 {
     background-color: #e9ecef;
@@ -30,13 +29,29 @@
     text-align: center;
 }
 
+.credit
+{
+    font-size: 2vh;
+    font-weight: bold;
+}
+
 footer
 {
     margin-top: 2.5rem;
 }
 
 @media screen and (max-width: 1200px) {  
-    .para
+    .row-height
+    {
+        height: 85vh;
+    }
+
+    .instruction
+    {
+        overflow-y: scroll;
+    }
+
+    .para, .credit
     {
         font-size: 0.8rem;
     }  
