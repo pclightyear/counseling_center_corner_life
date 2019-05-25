@@ -56,15 +56,10 @@ footer
     left: 65%;
 }
 
-#fail, #ppl, #finding, #firework
-{
-    left: -3rem;
-}
-
 #waiting
 {
     top: 0.3rem;
-    left: 15%;
+    left: 20%;
 }
 
 
@@ -72,4 +67,33 @@ footer
 {
     height: 100%;
     overflow-y: scroll;
+}
+
+.end-icon-m
+{
+    display: block;
+    margin-top: 0.5rem;
+    color: #ffd300;
+    padding-left: 60%;
+}
+
+.end-icon
+{
+    display: block;
+    margin-top: 0.5rem;
+    color: #ffd300;
+    padding-left: 30%;
+}
+
+.end-icon-nl
+{
+    display: block;
+    margin-top: 0.5rem;
+    color: #ffd300;
+}
+
+
+.end-icon-m:hover, .end-icon:hover, .end-icon-nl:hover
+{
+    color: #e6be00
 }
