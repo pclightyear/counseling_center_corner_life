@@ -1,0 +1,54 @@
+.end-img
+{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.end-img img
+{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.instruction
+{
+    background-color: #e9ecef;
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+    padding-top: 0.5rem;
+    max-height: 100%;
+}
+
+.para
+{
+    font-size: 2vh;
+}
+
+.again-btn
+{
+    text-align: center;
+}
+
+footer
+{
+    margin-top: 2.5rem;
+}
+
+@media screen and (max-width: 1200px) {  
+    .para
+    {
+        font-size: 0.8rem;
+    }  
+
+    .btn
+    {
+        font-size: 0.8rem !important;
+    }
+
+    footer
+    {
+        margin-top: 1.5rem;
+    }
+
+  }
